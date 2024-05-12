@@ -1,1 +1,9 @@
-{}
+{
+  "menu": {
+    "home": "Home",
+    "aboutUs": "About Us",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  }
+}
