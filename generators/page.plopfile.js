@@ -13,6 +13,16 @@ module.exports = (plop) => {
         type: 'add',
         path: '../src/app/{{kebabCase name}}/page.tsx',
         templateFile: 'templates/Page.tsx.hbs'
+      },
+      {
+        type: 'add',
+        path: '../src/app/[locale]/dictionaries/en/{{camelCase name}}.json',
+        templateFile: '{}'
+      },
+      {
+        type: 'add',
+        path: '../src/app/[locale]/dictionaries/pt/{{camelCase name}}.json',
+        templateFile: '{}'
       }
     ]
   })

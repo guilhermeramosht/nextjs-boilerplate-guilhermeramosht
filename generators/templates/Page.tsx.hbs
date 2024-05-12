@@ -1,9 +1,13 @@
 import Layout from '@/components/Layout'
+import { getDictionary } from './dictionaries/dictionaries'
+import Page from '@/shared/types/Page'
 
-export default function {{pascalCase name}}() {
+export default async function {{pascalCase name}}({ params: { locale } }: Page) {
+  const dict = await getDictionary(locale, '{{cameCase}}')
+
   return (
     <Layout>
-      <h1>{{pascalCase name}}</h1>
+      <h1>{dict.title}</h1>
     </Layout>
   )
 }
