@@ -20,7 +20,7 @@ const HeaderNavbar: React.FC<Props> = ({ isHamburerShown = true, menu }) => {
         menu={menu}
         className={twMerge(
           clsx(
-            '-translate-x-[100%] transition fixed inset-0 flex items-center justify-center bg-primary z-10',
+            '-translate-x-[100%] md:translate-x-0 transition fixed inset-0 flex items-center justify-center bg-primary z-10 md:static md:bg-transparent md:inset-auto md:flex-row md:justify-end md:gap-8 md:z-0',
             {
               'translate-x-0': isOpen
             }
@@ -29,7 +29,7 @@ const HeaderNavbar: React.FC<Props> = ({ isHamburerShown = true, menu }) => {
       />
 
       {isHamburerShown && (
-        <div className="z-20">
+        <div className="z-20 md:hidden">
           <Hamburger
             color="#FFFFFF"
             toggled={isOpen}
