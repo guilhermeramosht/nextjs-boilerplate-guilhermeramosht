@@ -1,3 +1,6 @@
 {
-  "title": "Home"
+  "hero": {
+    "title": "Welcome to Theo Framework",
+    "paragraph": "Making web development fun again"
+  }
 }

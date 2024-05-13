@@ -1,3 +1,6 @@
 {
-  "title": "Início"
+  "hero": {
+    "title": "Bem-vindo ao Theo Framework",
+    "paragraph": "Tornando web development prazeroso novamente"
+  }
 }
