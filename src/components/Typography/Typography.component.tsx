@@ -11,13 +11,13 @@ interface Props {
 const getClassNames = (component: Props['component']) => {
   switch (component) {
     case 'h1':
-      return 'text-3xl md:text-5xl font-bold'
+      return 'text-4xl mb-4 md:text-5xl font-bold'
 
     case 'h2':
-      return 'text-2xl md:text-3xl font-bold'
+      return 'text-3xl mb-4 font-bold'
 
     case 'h3':
-      return 'text-lg font-bold'
+      return 'text-lg mb-4 font-bold'
 
     default:
       return 'text-base'

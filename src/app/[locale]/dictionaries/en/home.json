@@ -2,5 +2,9 @@
   "hero": {
     "title": "Welcome to Theo Framework",
     "paragraph": "Making web development fun again"
+  },
+  "aboutUs": {
+    "title": "About us",
+    "paragraph": "Lorem ipsum dolor sit amet consectetur. Purus egestas mauris urna est. Amet blandit quisque aliquet eros donec. Tristique tincidunt scelerisque nisi eget laoreet id integer. Mattis parturient dolor praesent sed amet integer. Eget pharetra eget orci aliquam penatibus. Integer senectus commodo accumsan cursus. Felis ac a eget purus blandit mi. Eget quam netus morbi in in donec praesent turpis. Vitae amet ipsum quis quis amet adipiscing arcu id. Erat diam at vulputate vitae a."
   }
 }

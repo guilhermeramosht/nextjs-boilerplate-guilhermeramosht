@@ -1,8 +1,10 @@
-interface Props {}
+interface Props {
+  children: React.ReactNode
+}
 
-const {{pascalCase name}}: React.FC<Props> = () => (
+const {{pascalCase name}}: React.FC<Props> = ({ children }) => (
   <div>
-    
+    {children}
   </div>
 )
 
